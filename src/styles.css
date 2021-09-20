@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.ui.menu .item img.logo {
+    margin-right: 1.5rem;
+}
+
+.ui.items>.item {
+    border: 1px solid rgba(255,255,255, 0.0);
+    border-radius: 5px;
+}
+
+ui.items>.item.selected {
+    border: 1px solid rgba(255,255,255, 0.0);
+    border-radius: 5px;
+}
+
+.bordered {
+    border: 1px dashed black;
+    background-color: #eee;
+}

@@ -1,0 +1,23 @@
+<div class="container row product-row" >
+    <div class="col-md-3">
+        <product-image [image]="product.imageUrl"></product-image>
+    </div>
+    <div class="col-md-6">
+        <div class="content">
+            <div class="header">
+            <h3> {{product.name}} </h3>
+            </div>
+            <div class="meta">
+                <div class="product-sku">
+                    SKU #{{product.sku}}
+                </div>
+            </div>
+            <div class="description">
+                <product-departement [departement_list]="product.departement"></product-departement>
+            </div>
+        </div>    
+    </div>
+    <div class="col-md-3">
+        <price-display [price]="product.price"></price-display>
+    </div> 
+</div>

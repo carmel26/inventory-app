@@ -1,0 +1,8 @@
+<div *ngFor="let unProduit of listeProduit" class="row product-list">
+     <app-product-row class="panel panel-default"
+          [product]="unProduit"
+          (click)='clicked(unProduit)'
+          [class.selected]="isSelected(unProduit)">
+     </app-product-row>  
+
+</div>
